@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2018-09-03 00:59:00-0400
+date: 2017-07-12 00:59:00+0800
 inline: true
 ---
 
-One paper was accepted for publication in the IEEE Transactions on Industrial Electronics.
+Studied at National University of Singapore (NUS).
