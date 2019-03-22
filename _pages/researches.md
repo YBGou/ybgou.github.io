@@ -14,6 +14,7 @@ My research lies in Computer Vision and Deep Learning. For now I focus on the su
 
 -  IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
 -  IEEE Access
+-  IET Image Processing
 
 ##### Conference Reviewer
 
