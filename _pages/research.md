@@ -1,24 +1,18 @@
 ---
 layout: page
-permalink: /Research/
+permalink: /research/
 title: Research
-description: 
+description: My research lies in ...
+years: [2019, 2018]
 ---
 
 ### Interests
-My research lies in Computer Vision and Deep Learning. For now I focus on the subspace learning and clustering, which can be unified to the framework of Representation Learning.
+My research lies in the field of Computer Vision and Deep Learning. For now I focus on the subspace learning and clustering, which can be unified to the framework of Representation Learning.
 
-### Professional Activities
+### Publications
+Publications by categories in reversed chronological order.
 
-#### Journal Reviewer
-
--  IEEE Transactions on Neural Networks and Learning Systems (TNNLS).
--  IEEE Access
--  IET Image Processing
--  Electronics Letters
-
-#### Conference Reviewer
-
-- 15th International Symposium on Neural Networks (ISNN2018)
-- International Conference on Tools with Artificial Intelligence (ICTAI) 2018
-- Chinese Conference on Pattern Recognition and Computer Vision (PRCV) 2019
+{% for y in page.years %}
+  <h3 class="year">{{y}}</h3>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
