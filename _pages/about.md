@@ -8,7 +8,7 @@ profile:
   align: right
   image: me.jpg
   address: >
-    <p>Room 320, College of CS</p>
+    <p>Room B316, College of CS</p>
     <a href="http://en.scu.edu.cn">Sichuan University</a>
 
 news: true
