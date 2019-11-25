@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description: My research lies in ...
+description:
 years: [2019, 2018]
 ---
 
