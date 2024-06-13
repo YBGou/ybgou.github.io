@@ -45,6 +45,46 @@
           <article class="post-content Research clearfix">
             <h3 id="publications">Publications</h3>
             <p>Publications by categories in reversed chronological order (#1 indicates Co-First Author).</p>
+
+            <h3 class="year">2024</h3>
+            <ol class="bibliography">
+              <!-- 10 -->
+              <li>
+                <div id="TAO">
+                  <span class="title">Test-Time Degradation Adaptation for Open-Set Image Restoration</span>
+                  <span class="author">
+                    <em>Yuanbiao Gou</em>,
+                    Haiyu Zhao,
+                    Boyun Li,
+                    Xinyan Xiao,
+                    Xi Peng*, 
+                  </span>
+                  <span class="periodical">
+                    International Conference on Machine Learning (ICML Spotlight), 2024.
+                  </span>
+                  <span class="links">
+                    [<a class="abstract">Abstract</a>]
+                    [<a class="bibtex">Bib</a>]
+                    [<a href="https://github.com/XLearning-SCU/2024-ICML-TAO" target="_blank">Code</a>]
+                    [<a href="https://openreview.net/forum?id=XLlQb24X2o" target="_blank">HTML</a>]
+                    [<a href="https://openreview.net/pdf?id=XLlQb24X2o" target="_blank">PDF</a>]
+                  </span>
+                  <!-- Hidden abstract block -->
+                  <span class="abstract hidden">
+                    <p>In contrast to close-set scenarios that restore images from a predefined set of degradations, open-set image restoration aims to handle the unknown degradations that were unforeseen during the pretraining phase, which is less-touched as far as we know. This work study this challenging problem and reveal its essence as unidentified distribution shifts between the test and training data. Recently, test-time adaptation has emerged as a fundamental method to address this inherent disparities. Inspired by it, we propose a test-time degradation adaptation framework for open-set image restoration, which consists of three components, \textit{i.e.}, i) a pre-trained and degradation-agnostic diffusion model for generating clean images, ii) a test-time degradation adapter adapts the unknown degradations based on the input image during the testing phase, and iii) the adapter-guided image restoration guides the model through the adapter to produce the corresponding clean image. Through experiments on multiple degradations, we show that our method achieves comparable even better performance than those task-specific methods. The code is available at https://github.com/XLearning-SCU/2024-ICML-TAO.</p>
+                  </span>
+                  <!-- Hidden bibtex block -->
+                  <span class="bibtex hidden">
+                    <p>@InProceedings{TAO,<br>&nbsp;&nbsp;
+                      title={Test-Time Degradation Adaptation for Open-Set Image Restoration},<br>&nbsp;&nbsp;
+                      author={Yuanbiao Gou and Haiyu Zhao and Boyun Li and Xinyan Xiao and Xi Peng},<br>&nbsp;&nbsp;
+                      booktitle={Forty-first International Conference on Machine Learning},<br>&nbsp;&nbsp;
+                      year={2024}<br>
+                    }</p>
+                  </span>
+                </div>
+              </li>
+            </ol>
             
             <h3 class="year">2023</h3>
             <ol class="bibliography">
@@ -65,17 +105,24 @@
                   <span class="links">
                     [<a class="abstract">Abstract</a>]
                     [<a class="bibtex">Bib</a>]
-                    [<a href="#" target="_blank">Code</a>]
-                    [<a href="#" target="_blank">HTML</a>]
-                    [<a href="#" target="_blank">PDF</a>]
+                    [<a href="https://github.com/XLearning-SCU/2023-CVPR-FPL" target="_blank">Code</a>]
+                    [<a href="https://openaccess.thecvf.com/content/CVPR2023/html/Gou_Rethinking_Image_Super_Resolution_From_Long-Tailed_Distribution_Learning_Perspective_CVPR_2023_paper.html" target="_blank">HTML</a>]
+                    [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Gou_Rethinking_Image_Super_Resolution_From_Long-Tailed_Distribution_Learning_Perspective_CVPR_2023_paper.pdf" target="_blank">PDF</a>]
                   </span>
                   <!-- Hidden abstract block -->
                   <span class="abstract hidden">
-                    <p>None</p>
+                    <p>Existing studies have empirically observed that the resolution of the low-frequency region is easier to enhance than that of the high-frequency one. Although plentiful works have been devoted to alleviating this problem, little understanding is given to explain it. In this paper, we try to give a feasible answer from a machine learning perspective, i.e., the twin fitting problem caused by the long-tailed pixel distribution in natural images. With this explanation, we reformulate image super resolution (SR) as a long-tailed distribution learning problem and solve it by bridging the gaps of the problem between in low- and high-level vision tasks. As a result, we design a long-tailed distribution learning solution, that rebalances the gradients from the pixels in the low- and high-frequency region, by introducing a static and a learnable structure prior. The learned SR model achieves better balance on the fitting of the low- and high-frequency region so that the overall performance is improved. In the experiments, we evaluate the solution on four CNN- and one Transformer-based SR models w.r.t. six datasets and three tasks, and experimental results demonstrate its superiority.</p>
                   </span>
                   <!-- Hidden bibtex block -->
                   <span class="bibtex hidden">
-                    <p>None</p>
+                    <p>@InProceedings{FPL,<br>&nbsp;&nbsp;
+                        author    = {Gou, Yuanbiao and Hu, Peng and Lv, Jiancheng and Zhu, Hongyuan and Peng, Xi},<br>&nbsp;&nbsp;
+                        title     = {Rethinking Image Super Resolution From Long-Tailed Distribution Learning Perspective},<br>&nbsp;&nbsp;
+                        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},<br>&nbsp;&nbsp;
+                        month     = {June},<br>&nbsp;&nbsp;
+                        year      = {2023},<br>&nbsp;&nbsp;
+                        pages     = {14327-14336}<br>
+                    }</p>
                   </span>
                 </div>
               </li>
@@ -97,17 +144,24 @@
                   <span class="links">
                     [<a class="abstract">Abstract</a>]
                     [<a class="bibtex">Bib</a>]
-                    [<a href="#" target="_blank">Code</a>]
-                    [<a href="#" target="_blank">HTML</a>]
-                    [<a href="#" target="_blank">PDF</a>]
+                    [<a href="https://github.com/XLearning-SCU/2023-CVPR-CODE" target="_blank">Code</a>]
+                    [<a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Comprehensive_and_Delicate_An_Efficient_Transformer_for_Image_Restoration_CVPR_2023_paper.html" target="_blank">HTML</a>]
+                    [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Comprehensive_and_Delicate_An_Efficient_Transformer_for_Image_Restoration_CVPR_2023_paper.pdf" target="_blank">PDF</a>]
                   </span>
                   <!-- Hidden abstract block -->
                   <span class="abstract hidden">
-                    <p>None</p>
+                    <p>Vision Transformers have shown promising performance in image restoration, which usually conduct window- or channel-based attention to avoid intensive computations. Although the promising performance has been achieved, they go against the biggest success factor of Transformers to a certain extent by capturing the local instead of global dependency among pixels. In this paper, we propose a novel efficient image restoration Transformer that first captures the superpixel-wise global dependency, and then transfers it into each pixel. Such a coarse-to-fine paradigm is implemented through two neural blocks, i.e., condensed attention neural block (CA) and dual adaptive neural block (DA). In brief, CA employs feature aggregation, attention computation, and feature recovery to efficiently capture the global dependency at the superpixel level. To embrace the pixel-wise global dependency, DA takes a novel dual-way structure to adaptively encapsulate the globality from superpixels into pixels. Thanks to the two neural blocks, our method achieves comparable performance while taking only 6% FLOPs compared with SwinIR.</p>
                   </span>
                   <!-- Hidden bibtex block -->
                   <span class="bibtex hidden">
-                    <p>None</p>
+                    <p>@InProceedings{CODE,<br>&nbsp;&nbsp;
+                        author    = {Zhao, Haiyu and Gou, Yuanbiao and Li, Boyun and Peng, Dezhong and Lv, Jiancheng and Peng, Xi},<br>&nbsp;&nbsp;
+                        title     = {Comprehensive and Delicate: An Efficient Transformer for Image Restoration},<br>&nbsp;&nbsp;
+                        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},<br>&nbsp;&nbsp;
+                        month     = {June},<br>&nbsp;&nbsp;
+                        year      = {2023},<br>&nbsp;&nbsp;
+                        pages     = {14122-14132}<br>
+                    }</p>
                   </span>
                 </div>
               </li>
@@ -142,8 +196,7 @@
                   </span>
                   <!-- Hidden bibtex block -->
                   <span class="bibtex hidden">
-                    <p>@inproceedings{
-                        gou2022multiscale,<br>&nbsp;&nbsp;
+                    <p>@inproceedings{MSANet,<br>&nbsp;&nbsp;
                         title={Multi-Scale Adaptive Network for Single Image Denoising},<br>&nbsp;&nbsp;
                         author={Yuanbiao Gou and Peng Hu and Jiancheng Lv and Joey Tianyi Zhou and Xi Peng},<br>&nbsp;&nbsp;
                         booktitle={Advances in Neural Information Processing Systems},<br>&nbsp;&nbsp;
